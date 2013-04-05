@@ -1,4 +1,6 @@
 tmux
+[![Build Status](https://travis-ci.org/[YOUR_GITHUB_USERNAME]/[YOUR_PROJECT_NAME].png)](https://travis-ci.org/shift/puppet-tmux.png])
+
 
 This is the tmux module.
 

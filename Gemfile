@@ -9,4 +9,7 @@ end
 gem 'rake'
 gem 'puppet', puppetversion
 gem 'puppet-lint'
+gem 'rspec'
 gem 'rspec-puppet'
+gem 'puppetlabs_spec_helper'
+gem "mocha", :require => false
