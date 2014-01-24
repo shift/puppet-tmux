@@ -41,7 +41,7 @@ class tmux($version = '1.8') {
   exec {'configure':
     cwd     => "/tmp/tmux-${version}",
     path    => ['/usr/bin', '/bin'],
-    command => 'bash -c "./configur"',
+    command => 'bash -c "./configure"',
     creates => "/tmp/tmux-${version}/config.status",
     require => [Package[libevent-dev],
                 Package[libncurses-dev],
